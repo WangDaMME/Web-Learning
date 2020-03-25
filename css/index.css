@@ -1,0 +1,49 @@
+body{
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+}
+
+.topBar{
+	width: 100%;
+	height: 40px;
+	background-color: #333;
+}
+.container{
+	width: 1226px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.topBar .topBar_list{
+	float:left;
+}
+
+.topBar .shopcart{
+	float:right;
+	height: 40px;
+	line-height: 40px; /*垂直居中 行高*/
+
+	width:160px;
+	margin-left: 15px;
+
+	text-align:center;
+	background-color:  #424242;
+}
+
+.topBar .login{
+	float:right;
+}
+.topBar a{
+	color:#e0e0e0;
+	font-size: 12px;
+	/* highlight the block when hover*/
+	display: inline-block;
+	line-height: 40px;
+
+}
+
+.topBar span{
+
+	margin:0 .5em;
+	color:#424242;
+}
